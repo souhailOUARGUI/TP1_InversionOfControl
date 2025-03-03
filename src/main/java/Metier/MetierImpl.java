@@ -7,7 +7,7 @@ public class MetierImpl implements  IMetier {
 
     @Override
     public double calcul() {
-        return 0;
+        return dao.getData();
     }
 
     public void setDao(IDao dao) {
